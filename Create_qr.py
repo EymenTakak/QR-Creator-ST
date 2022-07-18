@@ -13,9 +13,9 @@ z = st.number_input("Qr Scale: recommended=8", )
 
 def createqr():
     with urlopen(js) as response:
-        kaynak = response.read()
-    global veri
-    veri = json.loads(kaynak)
+        source = response.read()
+    
+    veri = json.loads(source)
 
     t = 0
     for res in veri:
