@@ -1,6 +1,5 @@
 import streamlit as st
 import json
-import png
 from urllib.request import urlopen
 import pyqrcode as py
 
@@ -23,7 +22,7 @@ def createqr():
         t+=1
         x = res[dictt]
         y = py.create(x)
-        y.png(f"qr{t}.png", scale=z)
+        y.svg(f"qr{t}.svg", scale=z)
 
 if st.button("Create"):
     createqr()
