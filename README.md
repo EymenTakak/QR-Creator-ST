@@ -1,1 +1,1 @@
-# streamlitqr
+# QR Generator With Streamlit
