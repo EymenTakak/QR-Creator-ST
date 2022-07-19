@@ -27,5 +27,4 @@ def createqr():
 if st.button("Create"):
     createqr()
     st.text("Wait a few minutes...")
-    time.sleep(15)
 
