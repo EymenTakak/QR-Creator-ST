@@ -1,5 +1,5 @@
 # QR Generator With Streamlit
 
-!pip install -r requirements.txt
+go to txt path and pip install -r requirements.txt
 
 streamlit run Create_qr.py
