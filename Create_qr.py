@@ -5,7 +5,7 @@ import pyqrcode as py
 
 st.header("Create QR Code With Your Json")
 
-js = st.text_input("Json Api", "Write Your Json Link")
+js = st.text_input("Json Api Link", "")
 
 dictt = st.text_input("Dict Value", "Write Your Json Dict Value")
 
